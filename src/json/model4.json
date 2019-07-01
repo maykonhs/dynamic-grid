@@ -1,0 +1,259 @@
+{
+  "Grid": {
+    "GridColumn": [
+      {
+        "nat_autonumber": "Coluna1",
+        "nat_name": "Coluna1",
+        "nat_exibitionnane": "Coluna1",
+        "nat_onchange": null,
+        "nat_onclick": null,
+        "nat_order": true,
+        "sorting": "desc",
+        "nat_position": 1,
+        "nat_readonly": true,
+        "nat_type": "text",
+        "nat_width": "auto",
+        "props": [
+          {
+            "required": true,
+            "minNumber": 0,
+            "maxNumber": 15,
+            "minDate": "",
+            "maxDate": "",
+            "options": [
+              {
+                "value": 1,
+                "displayText": "Natura",
+                "order": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "nat_autonumber": "Coluna2",
+        "nat_name": "Coluna2",
+        "nat_exibitionnane": "Coluna2",
+        "nat_onchange": null,
+        "nat_onclick": null,
+        "nat_order": true,
+        "sorting": "desc",
+        "nat_position": 2,
+        "nat_readonly": true,
+        "nat_type": "float",
+        "nat_width": "auto",
+        "props": [
+          {
+            "required": true,
+            "minNumber": 0,
+            "maxNumber": 15,
+            "minDate": "",
+            "maxDate": "",
+            "options": [
+              {
+                "value": 1,
+                "displayText": "Natura",
+                "order": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "nat_autonumber": "Coluna3",
+        "nat_name": "Coluna3",
+        "nat_exibitionnane": "Coluna3",
+        "nat_onchange": null,
+        "nat_onclick": null,
+        "nat_order": false,
+        "sorting": "desc",
+        "nat_position": 4,
+        "nat_readonly": true,
+        "nat_type": "date",
+        "nat_width": "auto",
+        "props": [
+          {
+            "required": true,
+            "minNumber": 0,
+            "maxNumber": 15,
+            "minDate": "",
+            "maxDate": "",
+            "options": [
+              {
+                "value": 1,
+                "displayText": "Natura",
+                "order": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "nat_autonumber": "Coluna4",
+        "nat_name": "Coluna4",
+        "nat_exibitionnane": "Coluna4",
+        "nat_onchange": null,
+        "nat_onclick": null,
+        "nat_order": false,
+        "sorting": "desc",
+        "nat_position": 5,
+        "nat_readonly": true,
+        "nat_type": "number",
+        "nat_width": "auto",
+        "props": [
+          {
+            "required": true,
+            "minNumber": 0,
+            "maxNumber": 15,
+            "minDate": "",
+            "maxDate": "",
+            "options": [
+              {
+                "value": 1,
+                "displayText": "Natura",
+                "order": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "nat_autonumber": "Coluna5",
+        "nat_name": "Coluna5",
+        "nat_exibitionnane": "Coluna5",
+        "nat_onchange": null,
+        "nat_onclick": null,
+        "nat_order": false,
+        "sorting": "desc",
+        "nat_position": 6,
+        "nat_readonly": false,
+        "nat_type": "button",
+        "nat_width": "auto",
+        "props": [
+          {
+            "required": true,
+            "minNumber": 0,
+            "maxNumber": 15,
+            "minDate": "",
+            "maxDate": "",
+            "options": [
+              {
+                "value": 1,
+                "displayText": "Natura",
+                "order": 1
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "Rows": [
+      {
+        "Coluna1": "adipisicing",
+        "Coluna2": "2985.4",
+        "Coluna3": "2015-03-25",
+        "Coluna4": 1,
+        "Coluna5": "irure"
+      },
+      {
+        "Coluna1": "proident",
+        "Coluna2": "2384.45",
+        "Coluna3": "2015-03-25",
+        "Coluna4": 1,
+        "Coluna5": "nostrud"
+      },
+      {
+        "Coluna1": "ea",
+        "Coluna2": "2615.37",
+        "Coluna3": "2015-03-25",
+        "Coluna4": 1,
+        "Coluna5": "minim"
+      },
+      {
+        "Coluna1": "nulla",
+        "Coluna2": "3958.51",
+        "Coluna3": "2015-03-25",
+        "Coluna4": 1,
+        "Coluna5": "anim"
+      },
+      {
+        "Coluna1": "commodo",
+        "Coluna2": "3111.28",
+        "Coluna3": "2015-03-25",
+        "Coluna4": 1,
+        "Coluna5": "ipsum"
+      },
+      {
+        "id": 5,
+        "Coluna1": "laboris",
+        "Coluna2": "2426.85",
+        "Coluna3": "2015-03-25",
+        "Coluna4": 1,
+        "Coluna5": "laborum"
+      },
+      {
+        "Coluna1": "voluptate",
+        "Coluna2": "2462.68",
+        "Coluna3": "2015-03-25",
+        "Coluna4": 1,
+        "Coluna5": "exercitation"
+      },
+      {
+        "Coluna1": "nostrud",
+        "Coluna2": "1013.2",
+        "Coluna3": "2015-03-25",
+        "Coluna4": 1,
+        "Coluna5": "ullamco"
+      },
+      {
+        "Coluna1": "dolore",
+        "Coluna2": "3296.57",
+        "Coluna3": "2015-03-25",
+        "Coluna4": 1,
+        "Coluna5": "eiusmod"
+      },
+      {
+        "Coluna1": "cupidatat",
+        "Coluna2": "1740.47",
+        "Coluna3": "2015-03-25",
+        "Coluna4": 1,
+        "Coluna5": "elit"
+      },
+      {
+        "Coluna1": "duis",
+        "Coluna2": "2711.23",
+        "Coluna3": "2015-03-25",
+        "Coluna4": 1,
+        "Coluna5": "eu"
+      },
+      {
+        "Coluna1": "enim",
+        "Coluna2": "3415.5",
+        "Coluna3": "2015-03-25",
+        "Coluna4": 1,
+        "Coluna5": "exercitation"
+      },
+      {
+        "Coluna1": "quis",
+        "Coluna2": "2409.32",
+        "Coluna3": "2015-03-25",
+        "Coluna4": 1,
+        "Coluna5": "quis"
+      },
+      {
+        "Coluna1": "ullamco",
+        "Coluna2": "1339.8",
+        "Coluna3": "2015-03-25",
+        "Coluna4": 1,
+        "Coluna5": "dolore"
+      },
+      {
+        "Coluna1": "anim",
+        "Coluna2": "3014.03",
+        "Coluna3": "2015-03-25",
+        "Coluna4": 1,
+        "Coluna5": "magna"
+      }
+    ]
+  }
+}

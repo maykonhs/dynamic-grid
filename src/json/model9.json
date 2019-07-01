@@ -1,0 +1,259 @@
+{
+  "Grid": {
+    "GridColumn": [
+      {
+        "nat_autonumber": "001",
+        "nat_name": "id",
+        "nat_exibitionnane": "Coluna0",
+        "nat_onchange": null,
+        "nat_onclick": null,
+        "nat_order": false,
+        "sorting": "desc",
+        "nat_position": 1,
+        "nat_readonly": true,
+        "nat_type": "number",
+        "nat_width": "auto",
+        "props": [
+          {
+            "required": true,
+            "minNumber": 0,
+            "maxNumber": 15,
+            "minDate": "",
+            "maxDate": "",
+            "options": [
+              {
+                "value": 1,
+                "displayText": "Natura",
+                "order": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "nat_autonumber": "002",
+        "nat_name": "Coluna1",
+        "nat_exibitionnane": "Coluna1",
+        "nat_onchange": null,
+        "nat_onclick": null,
+        "nat_order": false,
+        "sorting": "desc",
+        "nat_position": 2,
+        "nat_readonly": true,
+        "nat_type": "text",
+        "nat_width": "auto",
+        "props": [
+          {
+            "required": true,
+            "minNumber": 0,
+            "maxNumber": 15,
+            "minDate": "",
+            "maxDate": "",
+            "options": [
+              {
+                "value": 1,
+                "displayText": "Natura",
+                "order": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "nat_autonumber": "003",
+        "nat_name": "Coluna2",
+        "nat_exibitionnane": "Coluna2",
+        "nat_onchange": null,
+        "nat_onclick": null,
+        "nat_order": false,
+        "sorting": "desc",
+        "nat_position": 3,
+        "nat_readonly": true,
+        "nat_type": "currency",
+        "nat_width": "auto",
+        "props": [
+          {
+            "required": true,
+            "minNumber": 0,
+            "maxNumber": 15,
+            "minDate": "",
+            "maxDate": "",
+            "options": [
+              {
+                "value": 1,
+                "displayText": "Natura",
+                "order": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "nat_autonumber": "004",
+        "nat_exibition": false,
+        "nat_name": "Coluna3",
+        "nat_exibitionnane": "Coluna3",
+        "nat_onchange": null,
+        "nat_onclick": null,
+        "nat_order": false,
+        "sorting": "desc",
+        "nat_position": 4,
+        "nat_readonly": true,
+        "nat_type": "date",
+        "nat_width": "auto",
+        "props": [
+          {
+            "required": true,
+            "minNumber": 0,
+            "maxNumber": 15,
+            "minDate": "",
+            "maxDate": "",
+            "options": [
+              {
+                "value": 1,
+                "displayText": "Natura",
+                "order": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "nat_autonumber": "005",
+        "nat_exibition": false,
+        "nat_exibitionnane": "Coluna4",
+        "nat_name": "Coluna4",
+        "nat_onchange": null,
+        "nat_onclick": null,
+        "nat_order": false,
+        "nat_readonly": true,
+        "nat_type": "number",
+        "nat_width": "auto",
+        "nat_position": 5,
+        "props": [
+          {
+            "required": true,
+            "minNumber": 0,
+            "maxNumber": 15,
+            "minDate": "",
+            "maxDate": "",
+            "options": [
+              {
+                "value": 1,
+                "displayText": "Natura",
+                "order": 1
+              }
+            ]
+          }
+        ],
+        "sorting": "desc"
+      },
+      {
+        "nat_autonumber": "006",
+        "nat_name": "Coluna5",
+        "nat_exibition": true,
+        "nat_exibitionnane": "Coluna5",
+        "nat_onchange": null,
+        "nat_onclick": null,
+        "nat_order": false,
+        "sorting": "desc",
+        "nat_position": 6,
+        "nat_readonly": false,
+        "nat_type": "button",
+        "nat_width": "auto",
+        "props": [
+          {
+            "required": true,
+            "minNumber": 0,
+            "maxNumber": 15,
+            "minDate": "",
+            "maxDate": "",
+            "options": [
+              {
+                "value": 1,
+                "displayText": "Natura",
+                "order": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "nat_autonumber": "007",
+        "nat_name": "Coluna6",
+        "nat_exibitionnane": "Coluna6",
+        "nat_onchange": null,
+        "nat_onclick": null,
+        "nat_order": false,
+        "sorting": "desc",
+        "nat_position": 7,
+        "nat_readonly": true,
+        "nat_type": "text",
+        "nat_width": "auto",
+        "props": [
+          {
+            "required": true,
+            "minNumber": 0,
+            "maxNumber": 15,
+            "minDate": "",
+            "maxDate": "",
+            "options": [
+              {
+                "value": 1,
+                "displayText": "Natura",
+                "order": 1
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "Rows": [
+      {
+        "001": 0,
+        "002": "nulla",
+        "003": "3938.43",
+        "004": "2015-03-10",
+        "005": 1,
+        "006": "do",
+        "007": "in officia ad do tempor"
+      },
+      {
+        "001": 1,
+        "002": "ut",
+        "003": "3539.85",
+        "004": "2015-03-15",
+        "005": 2,
+        "006": "adipisicing",
+        "007": "amet consequat non tempor enim"
+      },
+      {
+        "001": 2,
+        "002": "ipsum",
+        "003": "1784.92",
+        "004": "2015-03-20",
+        "005": 3,
+        "006": "officia",
+        "007": "sint tempor ipsum duis do"
+      },
+      {
+        "001": 3,
+        "002": "ad",
+        "003": "2263.76",
+        "004": "2015-03-25",
+        "005": 4,
+        "006": "001",
+        "007": "magna reprehenderit nulla cillum quis"
+      },
+      {
+        "001": 4,
+        "002": "duis",
+        "003": "1846.43",
+        "004": "2015-03-05",
+        "005": 5,
+        "006": "culpa",
+        "007": "Lorem qui non dolore sunt"
+      }
+    ]
+  }
+}

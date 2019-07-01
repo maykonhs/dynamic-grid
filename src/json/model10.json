@@ -1,0 +1,128 @@
+{
+  "Grid": {
+    "GridColumn": [
+      {
+        "nat_autonumber": "001",
+        "nat_name": "orderstatus.description",
+        "nat_exibitionnane": "Descrição",
+        "nat_position": 3,
+        "nat_order": true,
+        "nat_sorting": "asc",
+        "nat_readonly": false,
+        "nat_onchange": "enableField",
+        "nat_onclick": null,
+        "nat_width": "auto",
+        "prop": {
+          "nat_required": null,
+          "nat_maxdate": null,
+          "nat_mindate": null,
+          "nat_maxnumber": 0,
+          "nat_minnumber": 0,
+          "options": null
+        }
+      },
+      {
+        "nat_autonumber": "003",
+        "nat_name": "orderdate",
+        "nat_exibitionnane": "Data do Pedido",
+        "nat_position": 2,
+        "nat_order": true,
+        "nat_sorting": "desc",
+        "nat_readonly": true,
+        "nat_onchange": "showLog",
+        "nat_onclick": null,
+        "nat_editable": true,
+        "nat_exibition": false,
+        "nat_width": "auto",
+        "prop": {
+          "nat_required": null,
+          "nat_maxdate": null,
+          "nat_mindate": null,
+          "nat_maxnumber": 0,
+          "nat_minnumber": 0,
+          "options": [
+            {
+              "value": "01",
+              "description": "ativo",
+              "order": 1
+            },
+            {
+              "value": "02",
+              "description": "inativo",
+              "order": 2
+            }
+          ]
+        }
+      },
+      {
+        "nat_autonumber": "002",
+        "nat_name": "orderstatus.id",
+        "nat_exibitionnane": "Id",
+        "nat_position": 1,
+        "nat_order": true,
+        "nat_sorting": "asc",
+        "nat_readonly": true,
+        "nat_onchange": null,
+        "nat_onclick": "linkToDetails",
+        "nat_width": "auto",
+        "prop": {
+          "nat_required": null,
+          "nat_maxdate": null,
+          "nat_mindate": null,
+          "nat_maxnumber": 0,
+          "nat_minnumber": 0,
+          "options": null
+        }
+      },
+      {
+        "nat_autonumber": "004",
+        "nat_name": "chargedValue.value",
+        "nat_exibitionnane": "Valor",
+        "nat_position": 4,
+        "nat_order": true,
+        "nat_sorting": "desc",
+        "nat_readonly": false,
+        "nat_onchange": null,
+        "nat_onclick": null,
+        "nat_width": "auto",
+        "nat_type": "float",
+        "nat_total": false,
+        "prop": {
+          "nat_required": false,
+          "nat_maxdate": null,
+          "nat_mindate": null,
+          "nat_maxnumber": 0,
+          "nat_minnumber": 0,
+          "options": null
+        }
+      }
+    ],
+    "Rows": [
+      {
+        "001": "faturado e em transporte",
+        "003": "2014-12-24t17:44:45z",
+        "002": "14",
+        "004": "322.92"
+      },
+      {
+        "001": "faturado e em transporte",
+        "003": "2015-01-13t11:01:23z",
+        "002": "14",
+        "004": "363.31"
+      },
+      {
+        "001": "cancelado",
+        "003": "2015-02-06t01:46:35z",
+        "002": "4",
+        "004": "99.61"
+      },
+      {
+        "001": "faturado e em transporte",
+        "003": "2016-03-31t18:47:57z",
+        "002": "14",
+        "004": "286.37"
+      }
+    ]
+  },
+  "Error": null
+}

@@ -1,0 +1,108 @@
+{
+  "Grid": {
+    "GridColumn": [
+      {
+        "nat_autonumber": "001",
+        "nat_name": "id",
+        "nat_exibitionnane": "Coluna0",
+        "nat_onchange": null,
+        "nat_onclick": "clickTest",
+        "nat_order": false,
+        "sorting": "desc",
+        "nat_position": 1,
+        "nat_readonly": true,
+        "nat_total": true,
+        "nat_type": "number",
+        "nat_width": "auto",
+        "props": [
+          {
+            "required": true,
+            "minNumber": 0,
+            "maxNumber": 15,
+            "minDate": "",
+            "maxDate": "",
+            "options": [
+              {
+                "value": 1,
+                "displayText": "Natura",
+                "order": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "nat_autonumber": "002",
+        "nat_name": "Coluna1",
+        "nat_exibitionnane": "Coluna1",
+        "nat_onchange": null,
+        "nat_onclick": null,
+        "nat_order": false,
+        "sorting": "desc",
+        "nat_position": 2,
+        "nat_readonly": true,
+        "nat_total": false,
+        "nat_type": "text",
+        "nat_width": "auto",
+        "props": [
+          {
+            "required": true,
+            "minNumber": 0,
+            "maxNumber": 15,
+            "minDate": "",
+            "maxDate": "",
+            "options": [
+              {
+                "value": 1,
+                "displayText": "Natura",
+                "order": 1
+              },
+              {
+                "value": 2,
+                "displayText": "Natura - 2",
+                "order": 2
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "nat_autonumber": "003",
+        "nat_name": "Coluna2",
+        "nat_exibitionnane": "Coluna2",
+        "nat_onchange": null,
+        "nat_onclick": null,
+        "nat_order": false,
+        "sorting": "desc",
+        "nat_position": 3,
+        "nat_total": true,
+        "nat_readonly": true,
+        "nat_type": "currency",
+        "nat_width": "auto",
+        "props": [
+          {
+            "required": true,
+            "minNumber": 0,
+            "maxNumber": 15,
+            "minDate": "",
+            "maxDate": "",
+            "options": [
+              {
+                "value": 1,
+                "displayText": "Natura",
+                "order": 1
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "Rows": [
+      {
+        "001": 0,
+        "002": "adipisicing",
+        "003": "2985.4"
+      }
+    ]
+  }
+}
