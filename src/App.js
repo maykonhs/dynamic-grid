@@ -45,13 +45,24 @@ class SimpleTable extends React.Component {
                 'clickTest': this.clickTest,
                 'AddSelectedItem': this.AddSelectedItem,
                 'ShowObject': this.ShowObject,
-                'setEdit': this.setEdit
+                'setEdit': this.setEdit,
+                'openLink': this.openLink.bind(this),
             }
         };
     }
 
     clickTest(name, item, changeState, changeEdit) {
         changeState('Coluna5', 'Novo Valor');
+    }
+
+    openLink(id, selected) {
+        if (selected.includes(id)) {
+            console.log('Removendo...');
+            console.log(this.state.Panel2.Grid.Rows[id]);
+        } else {
+            console.log('Adicionando...');
+            console.log(this.state.Panel2.Grid.Rows[id]);
+        }
     }
 
     changeColum(name, item, changeState, changeEdit) {
