@@ -46,7 +46,7 @@ class SimpleTable extends React.Component {
                 'AddSelectedItem': this.AddSelectedItem,
                 'ShowObject': this.ShowObject,
                 'setEdit': this.setEdit,
-                'openLink': this.openLink.bind(this),
+                'checkboxFunction': this.checkboxFunction.bind(this),
             }
         };
     }
@@ -55,7 +55,7 @@ class SimpleTable extends React.Component {
         changeState('Coluna5', 'Novo Valor');
     }
 
-    openLink(id, selected) {
+    checkboxFunction(id, selected) {
         if (selected.includes(id)) {
             console.log('Removendo...');
             console.log(this.state.Panel2.Grid.Rows[id]);
