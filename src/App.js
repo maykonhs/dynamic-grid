@@ -56,7 +56,7 @@ class SimpleTable extends React.Component {
     }
 
     checkboxFunction(id, selected) {
-        if (selected.includes(id)) {
+        if (selected.indexOf(id) >= 0) {
             console.log('Removendo...');
             console.log(this.state.Panel2.Grid.Rows[id]);
         } else {
