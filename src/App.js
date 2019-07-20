@@ -199,7 +199,7 @@ class SimpleTable extends React.Component {
                     </ExpansionPanelSummary>
                     <ExpansionPanelDetails>
                         <div>
-                            <DynamicGrid grid={this.state.Panel8} func={this.state.func} />
+                            <DynamicGrid disabledCheckbox grid={this.state.Panel8} func={this.state.func} />
                         </div>
                     </ExpansionPanelDetails>
                 </ExpansionPanel> 
