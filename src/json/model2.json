@@ -14,7 +14,7 @@
         "nat_total": true,
         "nat_type": "number",
         "nat_width": "auto",
-        "props": [
+        "prop": [
           {
             "required": true,
             "minNumber": 0,
@@ -44,7 +44,7 @@
         "nat_total": false,
         "nat_type": "text",
         "nat_width": "auto",
-        "props": [
+        "prop": [
           {
             "required": true,
             "minNumber": 0,
@@ -79,7 +79,7 @@
         "nat_readonly": true,
         "nat_type": "currency",
         "nat_width": "auto",
-        "props": [
+        "prop": [
           {
             "required": true,
             "minNumber": 0,

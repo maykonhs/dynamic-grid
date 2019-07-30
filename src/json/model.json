@@ -1,7 +1,6 @@
 {
   "Grid": {
-    "GridColumn": [
-      {
+    "GridColumn": [{
         "nat_autonumber": "001",
         "nat_name": "id",
         "nat_exibitionnane": "Coluna0",
@@ -13,22 +12,18 @@
         "nat_readonly": true,
         "nat_type": "number",
         "nat_width": "auto",
-        "props": [
-          {
-            "required": true,
-            "minNumber": 0,
-            "maxNumber": 15,
-            "minDate": "",
-            "maxDate": "",
-            "options": [
-              {
-                "value": 1,
-                "displayText": "Natura",
-                "order": 1
-              }
-            ]
-          }
-        ]
+        "prop": {
+          "required": true,
+          "minNumber": 0,
+          "maxNumber": 15,
+          "minDate": "",
+          "maxDate": "",
+          "options": [{
+            "value": 1,
+            "displayText": "Natura",
+            "order": 1
+          }]
+        }
       },
       {
         "nat_autonumber": "002",
@@ -42,22 +37,18 @@
         "nat_readonly": true,
         "nat_type": "text",
         "nat_width": "auto",
-        "props": [
-          {
-            "required": true,
-            "minNumber": 0,
-            "maxNumber": 15,
-            "minDate": "",
-            "maxDate": "",
-            "options": [
-              {
-                "value": 1,
-                "displayText": "Natura",
-                "order": 1
-              }
-            ]
-          }
-        ]
+        "prop": {
+          "required": true,
+          "minNumber": 0,
+          "maxNumber": 15,
+          "minDate": "",
+          "maxDate": "",
+          "options": [{
+            "value": 1,
+            "displayText": "Natura",
+            "order": 1
+          }]
+        }
       },
       {
         "nat_autonumber": "003",
@@ -71,22 +62,18 @@
         "nat_readonly": true,
         "nat_type": "currency",
         "nat_width": "auto",
-        "props": [
-          {
-            "required": true,
-            "minNumber": 0,
-            "maxNumber": 15,
-            "minDate": "",
-            "maxDate": "",
-            "options": [
-              {
-                "value": 1,
-                "displayText": "Natura",
-                "order": 1
-              }
-            ]
-          }
-        ]
+        "prop": {
+          "required": true,
+          "minNumber": 0,
+          "maxNumber": 15,
+          "minDate": "",
+          "maxDate": "",
+          "options": [{
+            "value": 1,
+            "displayText": "Natura",
+            "order": 1
+          }]
+        }
       },
       {
         "nat_autonumber": "004",
@@ -100,22 +87,18 @@
         "nat_readonly": true,
         "nat_type": "date",
         "nat_width": "auto",
-        "props": [
-          {
-            "required": true,
-            "minNumber": 0,
-            "maxNumber": 15,
-            "minDate": "",
-            "maxDate": "",
-            "options": [
-              {
-                "value": 1,
-                "displayText": "Natura",
-                "order": 1
-              }
-            ]
-          }
-        ]
+        "prop": {
+          "required": true,
+          "minNumber": 0,
+          "maxNumber": 15,
+          "minDate": "",
+          "maxDate": "",
+          "options": [{
+            "value": 1,
+            "displayText": "Natura",
+            "order": 1
+          }]
+        }
       },
       {
         "nat_autonumber": "005",
@@ -129,22 +112,18 @@
         "nat_readonly": true,
         "nat_type": "number",
         "nat_width": "auto",
-        "props": [
-          {
-            "required": true,
-            "minNumber": 0,
-            "maxNumber": 15,
-            "minDate": "",
-            "maxDate": "",
-            "options": [
-              {
-                "value": 1,
-                "displayText": "Natura",
-                "order": 1
-              }
-            ]
-          }
-        ]
+        "prop": {
+          "required": true,
+          "minNumber": 0,
+          "maxNumber": 15,
+          "minDate": "",
+          "maxDate": "",
+          "options": [{
+            "value": 1,
+            "displayText": "Natura",
+            "order": 1
+          }]
+        }
       },
       {
         "nat_autonumber": "006",
@@ -158,22 +137,18 @@
         "nat_readonly": false,
         "nat_type": "button",
         "nat_width": "auto",
-        "props": [
-          {
-            "required": true,
-            "minNumber": 0,
-            "maxNumber": 15,
-            "minDate": "",
-            "maxDate": "",
-            "options": [
-              {
-                "value": 1,
-                "displayText": "Natura",
-                "order": 1
-              }
-            ]
-          }
-        ]
+        "prop": {
+          "required": true,
+          "minNumber": 0,
+          "maxNumber": 15,
+          "minDate": "",
+          "maxDate": "",
+          "options": [{
+            "value": 1,
+            "displayText": "Natura",
+            "order": 1
+          }]
+        }
       },
       {
         "nat_autonumber": "007",
@@ -187,26 +162,21 @@
         "nat_readonly": true,
         "nat_type": "text",
         "nat_width": "auto",
-        "props": [
-          {
-            "required": true,
-            "minNumber": 0,
-            "maxNumber": 15,
-            "minDate": "",
-            "maxDate": "",
-            "options": [
-              {
-                "value": 1,
-                "displayText": "Natura",
-                "order": 1
-              }
-            ]
-          }
-        ]
+        "prop": {
+          "required": true,
+          "minNumber": 0,
+          "maxNumber": 15,
+          "minDate": "",
+          "maxDate": "",
+          "options": [{
+            "value": 1,
+            "displayText": "Natura",
+            "order": 1
+          }]
+        }
       }
     ],
-    "Rows": [
-      {
+    "Rows": [{
         "001": 0,
         "002": "nulla",
         "003": "3938.43",

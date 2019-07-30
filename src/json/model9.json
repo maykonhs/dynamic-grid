@@ -13,7 +13,7 @@
         "nat_readonly": true,
         "nat_type": "number",
         "nat_width": "auto",
-        "props": [
+        "prop": [
           {
             "required": true,
             "minNumber": 0,
@@ -42,7 +42,7 @@
         "nat_readonly": true,
         "nat_type": "text",
         "nat_width": "auto",
-        "props": [
+        "prop": [
           {
             "required": true,
             "minNumber": 0,
@@ -71,7 +71,7 @@
         "nat_readonly": true,
         "nat_type": "currency",
         "nat_width": "auto",
-        "props": [
+        "prop": [
           {
             "required": true,
             "minNumber": 0,
@@ -101,7 +101,7 @@
         "nat_readonly": true,
         "nat_type": "date",
         "nat_width": "auto",
-        "props": [
+        "prop": [
           {
             "required": true,
             "minNumber": 0,
@@ -130,7 +130,7 @@
         "nat_type": "number",
         "nat_width": "auto",
         "nat_position": 5,
-        "props": [
+        "prop": [
           {
             "required": true,
             "minNumber": 0,
@@ -161,7 +161,7 @@
         "nat_readonly": false,
         "nat_type": "button",
         "nat_width": "auto",
-        "props": [
+        "prop": [
           {
             "required": true,
             "minNumber": 0,
@@ -190,7 +190,7 @@
         "nat_readonly": true,
         "nat_type": "text",
         "nat_width": "auto",
-        "props": [
+        "prop": [
           {
             "required": true,
             "minNumber": 0,
