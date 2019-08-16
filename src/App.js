@@ -98,6 +98,7 @@ class SimpleTable extends React.Component {
 
     deletedItem(item) {
         console.log(item);
+        // return true;
     }
 
 
