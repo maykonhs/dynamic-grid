@@ -2,7 +2,7 @@ import React from 'react';
 import { withStyles } from '@material-ui/core/styles';
 import {
     Table, TableBody, TableCell, TablePagination, TableRow, Paper, Checkbox,
-    Button, Grid, IconButton, Tooltip
+    Button, Grid, IconButton, Tooltip, TableFooter
 } from '@material-ui/core';
 import CheckBoxOutlineBlankIcon from "@material-ui/icons/CheckBoxOutlineBlank";
 import CheckBoxIcon from "@material-ui/icons/CheckBox";
@@ -231,7 +231,6 @@ class DynamicGrid extends React.Component {
                                 count={countView}
                             />
                             <TableBody>
-
                                 {this.props.grid.Grid.Rows.map((item, index) => { if (item !== undefined) { item.id = index; } })}
 
                                 {stableSort(this.props.grid.Grid.Rows, getSorting(order, orderBy))
@@ -271,10 +270,11 @@ class DynamicGrid extends React.Component {
                                         Nenhum dado encontrado
                                     </CustomCell>
                                 </StyledTableRow>
+                            </TableBody>
+                            <TableFooter>
                                 {countView ? <DynamicSum data={this.props.grid.Grid.Rows} columns={columns} />
                                     : null}
-
-                            </TableBody>
+                            </TableFooter>
                         </Table>
                     </div>
                     <TablePagination

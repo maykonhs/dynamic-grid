@@ -41,6 +41,15 @@ class DynamicCell extends React.Component {
         }
     }
 
+    handleIntChange= (key, item) => event => {
+        this.props.item[item.nat_autonumber] = event.target.value.replace(/\D/g, '');
+        this.setState(this.props.item);
+
+        if (item.nat_onchange !== null && item.nat_onchange !== "") {
+            this.props.func[item.nat_onchange](key, this.props.item, this.changeProperty, this.setEditable);
+        }
+    };
+
     handleChange = (key, item) => event => {
         this.props.item[item.nat_autonumber] = event.target.value;
         this.setState(this.props.item);
@@ -80,6 +89,21 @@ class DynamicCell extends React.Component {
                 if (item.nat_readonly === false || (this.props.item.edit && this.props.item.edit.indexOf(item.nat_autonumber) >= 0)) {
                     switch (item.nat_type) {
                         case 'int':
+                            return (
+                                <CustomCell key={item.nat_autonumber + index} onClick={this.handleClick(item.nat_autonumber, item)} className={item.nat_onclick ? 'onClickClass' : null}>
+                                    <CssTextField type="text"
+                                        key={item.nat_autonumber + index}
+                                        value={this.props.item[item.nat_autonumber]}
+                                        onChange={this.handleIntChange(item.nat_autonumber, item)}
+                                        InputLabelProps={{
+                                            shrink: true
+                                        }}
+                                        InputProps={{ style: { fontSize: 10 } }}
+                                        required
+                                        autoFocus
+                                    />
+                                </CustomCell>
+                            );
                         case 'decimal':
                             return (
                                 <CustomCell key={item.nat_autonumber + index} onClick={this.handleClick(item.nat_autonumber, item)} className={item.nat_onclick ? 'onClickClass' : null}>
@@ -207,7 +231,7 @@ class DynamicCell extends React.Component {
                                 </CustomCell>
                             );
                         case 'datetime':
-                            let unformattedDate = ((this.props.item[item.nat_autonumber] == '') || (this.props.item[item.nat_autonumber] == null)) ? '' : this.props.item[item.nat_autonumber].substr(0, 10).replace(/-/g,'/');
+                            let unformattedDate = ((this.props.item[item.nat_autonumber] == '') || (this.props.item[item.nat_autonumber] == null)) ? '' : this.props.item[item.nat_autonumber].substr(0, 10).replace(/-/g, '/');
                             return (
                                 <CustomCell key={item.nat_autonumber + index} className="readonly" onClick={this.handleClick(item.nat_autonumber, item)} className={item.nat_onclick ? 'readonly onClickClass' : 'readonly'}>
                                     {
