@@ -77,7 +77,7 @@
         "nat_position": 3,
         "nat_total": true,
         "nat_readonly": true,
-        "nat_type": "float",
+        "nat_type": "Float",
         "nat_width": "auto",
         "prop": [
           {
