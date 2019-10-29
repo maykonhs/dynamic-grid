@@ -114,7 +114,7 @@ class SimpleTable extends React.Component {
                         <Typography> 1 - Exibição da grid padrão</Typography>
                     </ExpansionPanelSummary>
                     <ExpansionPanelDetails>
-                        <DynamicGrid grid={this.state.Panel} />
+                        <DynamicGrid grid={this.state.Panel} func={this.state.func} />
                     </ExpansionPanelDetails>
                 </ExpansionPanel> 
                 <ExpansionPanel>
