@@ -139,10 +139,11 @@ class DynamicGrid extends React.Component {
         this.setState({ selected: [] });
     };
 
-    handleClick = (event, id) => {
+    handleClick = async (event, id) => {
         const { selected } = this.state;
         const selectedIndex = selected.indexOf(id);
-        const response = this.props.func.checkboxFunction(id, selected);
+        const response = await this.props.func.checkboxFunction(id, selected);
+        console.log(response);
         if (response) {
             let newSelected = [];
             if (selectedIndex === -1) {
